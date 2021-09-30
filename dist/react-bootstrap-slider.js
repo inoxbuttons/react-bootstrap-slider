@@ -65,7 +65,7 @@
     componentDidMount() {
       const that = this;
       const sliderAttributes = this.props;
-      sliderAttributes.tooltip = this.props.tooltip || "show";
+      // sliderAttributes.tooltip = this.props.tooltip || "show";
 
       this.mySlider = new _bootstrapSlider.default(this.node, sliderAttributes); //     this.updateSliderValues();
 
