@@ -22,7 +22,7 @@ export class ReactBootstrapSlider extends React.Component {
   componentDidMount() {
     const that = this;
     const sliderAttributes = this.props;
-    sliderAttributes.tooltip = this.props.tooltip || "show";
+    // sliderAttributes.tooltip = this.props.tooltip || "show";
     // console.log("sliderAttributes = " + JSON.stringify(sliderAttributes, null, 4));
 
     this.mySlider = new Slider(this.node, sliderAttributes);
